@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main()
+{
+    int English, Math, Science;
+    float avg = 0;
+
+    printf("Enter English:");
+    scanf("%d", &English);
+
+    printf("Enter Math:");
+    scanf("%d", &Math);
+
+    printf("Enter Science:");
+    scanf("%d", &Science);
+
+    avg = (float)(English + Math + Science) / 3;
+
+    printf("average:%f", avg);
+
+    return 0;
+}
